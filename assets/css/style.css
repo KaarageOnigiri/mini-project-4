@@ -37,10 +37,19 @@ aside {
     background-color: bisque;
     /* hey */
     min-height: 400px;
+}
+
+aside h3 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: left;
+    margin: 10%;
+    font-size: 25px;
+}
+
+span {
+    margin-left: 5%;
 }
 
 footer {
@@ -58,6 +67,22 @@ html footer {
 h2 {
     padding: 20px;
     font-size: 50px;
+}
+
+button {
+    margin: 20px;
+}
+
+.timer-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* how to make the button go to the bottom of the aside bar? */
+.bottom {
+    text-align: center;
 }
 
 #playBoard {
